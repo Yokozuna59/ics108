@@ -11,8 +11,7 @@ public class TaskOne {
         System.out.print("Enter the side: ");
         double sideLength = input.nextFloat();
 
-        double area = (numberOfSlides * Math.pow(sideLength, 2))/(4 * Math.tan(Math.PI/numberOfSlides));
-
+        double area = (numberOfSlides * Math.pow(sideLength, 2)) / (4 * Math.tan(Math.PI / numberOfSlides));
         System.out.printf("The area of the polygon is %.14f\n", area);
 
         input.close();
