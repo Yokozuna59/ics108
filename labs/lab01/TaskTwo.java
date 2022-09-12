@@ -7,12 +7,11 @@ public class TaskTwo {
         System.out.println("How many student? ");
         int studentNumber = input.nextInt();
 
-        System.out.printf("Enter %d letter grades: \n", studentNumber);
-
         double summation = 0.0;
         String letterGrade;
 
-        for (int i=0; i < studentNumber; i++) {
+        System.out.printf("Enter %d letter grades: \n", studentNumber);
+        for (int i = 0; i < studentNumber; i++) {
             letterGrade = input.next().toUpperCase();
 
             if (letterGrade.equals("A+"))
@@ -38,6 +37,7 @@ public class TaskTwo {
                 i--;
             }
         }
+
         double gpa = summation / studentNumber;
         System.out.printf("GPA = %f\n", gpa);
 

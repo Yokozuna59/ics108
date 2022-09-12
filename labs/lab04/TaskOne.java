@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class TaskOne {
     public static boolean isSorted(int[] array) {
-        for (int i = 1; i < array.length - 1; i++) {
-            if (!(array[i - 1] <= array[i])) {
+        for (int i = 0; i < array.length; i++) {
+            if (!(array[i] <= array[i - 1])) {
                 return false;
             }
         }

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TaskOne {
     public static boolean equals(int[] list1, int[] list2) {
-        for (int i=0; i <list1.length; i++) {
+        for (int i = 0; i < list1.length; i++) {
             if (list1[i] != list2[i]) {
                 return false;
             }
@@ -17,9 +17,8 @@ public class TaskOne {
         int listInt[] = new int[listSize];
         System.out.printf("Enter list%d\n", listNumber);
 
-        for (int i=0; i < listSize; i++)
+        for (int i = 0; i < listSize; i++)
             listInt[i] = input.nextInt();
-
         return listInt;
     }
 
@@ -31,12 +30,12 @@ public class TaskOne {
         listOneInt = TaskOne.askAboutList(input, 1);
         listTwoInt = TaskOne.askAboutList(input, 2);
 
-        input.close();
-
         boolean arrayEquality = TaskOne.equals(listOneInt, listTwoInt);
         if (arrayEquality)
             System.out.println("list1 and list2 are equal");
         else
             System.out.println("list1 and list2 are not equal");
+
+        input.close();
     }
 }
