@@ -1,6 +1,6 @@
 # Lab 02
 
-## Task 1
+## Task
 
 1. **Question Discription:**
 
@@ -13,6 +13,7 @@
     Write a test program that prompts the user to enter two lists of integers and displays whether the two are identical.
 
     > **Note**: the first number in the input for each list indicates the number of the elements in the list. This number is not part of the list.
+
 2. **Sample Runs** (user input is in bold):
 
     Enter list1 size<br>

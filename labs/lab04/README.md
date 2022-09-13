@@ -1,6 +1,6 @@
 # Lab 04
 
-## Task 1
+## Task
 
 1. **Question Discription:**
 
