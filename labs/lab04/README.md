@@ -25,4 +25,4 @@
     The array has 10 integers 1 1 3 4 4 5 7 9 11 21<br>
     The array is sorted
 
-**My Solution**: [TaskOne.java](TaskOne.java)
+**My Solution**: [Task.java](Task.java)

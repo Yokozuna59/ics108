@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TaskOne {
+public class Task {
     public static boolean equals(int[] list1, int[] list2) {
         for (int i = 0; i < list1.length; i++) {
             if (list1[i] != list2[i]) {
@@ -27,10 +27,10 @@ public class TaskOne {
 
         Scanner input = new Scanner(System.in);
 
-        listOneInt = TaskOne.askAboutList(input, 1);
-        listTwoInt = TaskOne.askAboutList(input, 2);
+        listOneInt = Task.askAboutList(input, 1);
+        listTwoInt = Task.askAboutList(input, 2);
 
-        boolean arrayEquality = TaskOne.equals(listOneInt, listTwoInt);
+        boolean arrayEquality = Task.equals(listOneInt, listTwoInt);
         if (arrayEquality)
             System.out.println("list1 and list2 are equal");
         else

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TaskOne {
+public class Task {
     public static boolean isSorted(int[] array) {
         for (int i = 0; i < array.length; i++) {
             if (!(array[i] <= array[i - 1])) {
@@ -28,7 +28,7 @@ public class TaskOne {
             System.out.print(" " + array[i]);
         }
 
-        boolean sorted = TaskOne.isSorted(array);
+        boolean sorted = Task.isSorted(array);
 
         if (sorted)
             System.out.println("\nThe array is sorted");
