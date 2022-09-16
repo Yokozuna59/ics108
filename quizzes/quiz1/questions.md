@@ -66,7 +66,7 @@
     1. [ ] `final X = 4.0;`
     2. [ ] `double X = 4.0;`
     3. [ ] `private double CONSTANT = 4.0;`
-    4. [x] `final double X = 4.0;`
+    4. [ ] `final double X = 4.0;`
 
 5. What is the output of the following code?
 
