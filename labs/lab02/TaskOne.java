@@ -35,7 +35,7 @@ public class TaskOne {
         return numericValue;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
 
         System.out.println("How many students?");

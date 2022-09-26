@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Task {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         int sideNumbers;
         double x, y, perimeter;
         Point[] points;

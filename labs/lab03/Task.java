@@ -22,7 +22,7 @@ public class Task {
         return listInt;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         int listOneInt[], listTwoInt[];
 
         Scanner input = new Scanner(System.in);

@@ -1,5 +1,5 @@
 public class Task {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         MyInteger numberOne = new MyInteger(4);
         MyInteger numberTwo = new MyInteger(4);
         MyInteger numberThree = new MyInteger(11);

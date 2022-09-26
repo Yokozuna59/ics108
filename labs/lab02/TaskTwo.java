@@ -37,7 +37,7 @@ public class TaskTwo {
         return grade;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
 
         System.out.println("How many letter grades?");
