@@ -1,3 +1,6 @@
+import java.lang.Override;
+import java.lang.String;
+
 public class Vehicle {
     private int id, wheels;
 
@@ -6,6 +9,7 @@ public class Vehicle {
         this.wheels = wheels;
     }
 
+    @Override
     public String toString() {
         String result = String.format("ID: %d, Wheels: %d", id, wheels);
         return result;

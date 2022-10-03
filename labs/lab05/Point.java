@@ -24,9 +24,8 @@ public class Point {
 
     public double distance(Point pointOne) {
         double distance = Math.sqrt(
-            Math.pow(pointOne.getX() - x, 2)
-            + Math.pow(pointOne.getY() - y, 2)
-        );
+                Math.pow(pointOne.getX() - x, 2)
+                        + Math.pow(pointOne.getY() - y, 2));
         return distance;
     }
 }

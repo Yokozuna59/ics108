@@ -1,3 +1,6 @@
+import java.lang.Exception;
+import java.lang.String;
+import java.lang.System;
 import java.util.Scanner;
 
 public class TaskTwo {
@@ -32,10 +35,6 @@ public class TaskTwo {
                 summation += 1.0;
             else if (letterGrade.equals("F"))
                 summation += 0.0;
-            else {
-                System.out.println("Unknown letter grade entered.");
-                i--;
-            }
         }
 
         double gpa = summation / studentNumber;

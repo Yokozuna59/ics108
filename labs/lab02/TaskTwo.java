@@ -1,5 +1,8 @@
-import java.util.Scanner;
 import java.lang.Math;
+import java.lang.Exception;
+import java.lang.String;
+import java.lang.System;
+import java.util.Scanner;
 
 public class TaskTwo {
     public static String randomGrade() {

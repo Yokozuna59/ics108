@@ -1,3 +1,6 @@
+import java.lang.Exception;
+import java.lang.String;
+import java.lang.System;
 import java.util.Scanner;
 
 public class Task {

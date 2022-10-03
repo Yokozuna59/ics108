@@ -1,3 +1,6 @@
+import java.lang.Override;
+import java.lang.String;
+
 public class Truck extends Vehicle {
     private double load;
 
