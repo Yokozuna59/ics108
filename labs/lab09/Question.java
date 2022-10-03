@@ -1,4 +1,5 @@
 import java.lang.Override;
+import java.lang.String;
 
 public class Question {
     private String text;
