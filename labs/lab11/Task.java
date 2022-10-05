@@ -1,5 +1,9 @@
+import java.lang.Exception;
+import java.lang.String;
+import java.lang.System;
+
 public class Task {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Employee[] employeeArray = createEmployeeArray();
 
         printFullTimeEmployees(employeeArray);
