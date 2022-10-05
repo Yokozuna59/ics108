@@ -3,20 +3,6 @@ import java.lang.String;
 import java.lang.System;
 
 public class Task {
-    public static void main(String[] args) throws Exception {
-        Employee[] employeeArray = createEmployeeArray();
-
-        printFullTimeEmployees(employeeArray);
-        double avgSalary = avgSalaryFullTimeEmployees(employeeArray);
-        System.out.printf("avg salary of full-time employees = %f\n", avgSalary);
-
-        System.out.println();
-
-        printPartTimeEmployees(employeeArray);
-        double avgHours = avgHoursPartTimeEmployees(employeeArray);
-        System.out.printf("avg hours of part-time employees = %f\n", avgHours);
-    }
-
     public static Employee[] createEmployeeArray() {
         return new Employee[] {
                 new FullTimeEmployee(123456, "Apple", 10000.0),
@@ -65,5 +51,19 @@ public class Task {
                 average += ((PartTimeEmployee) currentEmployee).getHours();
         }
         return average;
+    }
+
+    public static void main(String[] args) throws Exception {
+        Employee[] employeeArray = createEmployeeArray();
+
+        printFullTimeEmployees(employeeArray);
+        double avgSalary = avgSalaryFullTimeEmployees(employeeArray);
+        System.out.printf("avg salary of full-time employees = %f\n", avgSalary);
+
+        System.out.println();
+
+        printPartTimeEmployees(employeeArray);
+        double avgHours = avgHoursPartTimeEmployees(employeeArray);
+        System.out.printf("avg hours of part-time employees = %f\n", avgHours);
     }
 }
