@@ -25,3 +25,6 @@ hs_err_pid*
 # Word Documents
 *.docx
 *.docx#
+
+# Compiled Maven output
+target/
