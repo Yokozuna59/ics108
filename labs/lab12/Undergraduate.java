@@ -1,6 +1,3 @@
-import java.lang.Override;
-import java.lang.String;
-
 public class Undergraduate extends Student {
     public Undergraduate(int ID, double gpa) {
         super(ID, gpa);

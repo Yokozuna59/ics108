@@ -1,6 +1,3 @@
-import java.lang.String;
-import java.lang.Override;
-
 public abstract class Student {
     private int ID;
     private double gpa;
