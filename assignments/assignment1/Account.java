@@ -1,17 +1,16 @@
 import java.util.Date;
-import java.lang.Math;
-import java.lang.String;
 
 public class Account {
     private int id;
-    private double balance, annualInterestRate = 4.5 / 100;
+    private double balance;
+    private double annualInterestRate = 4.5 / 100;
     private Date dateCreated;
 
-    Account() {
+    public Account() {
         this((int) ((Math.random() * 1000000)), 0);
     }
 
-    Account(int id, double balance) {
+    public Account(int id, double balance) {
         this.id = id;
         this.balance = balance;
         dateCreated = new Date();
@@ -29,7 +28,7 @@ public class Account {
         return balance;
     }
 
-    public void setBalance(int balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 
@@ -37,7 +36,7 @@ public class Account {
         return annualInterestRate;
     }
 
-    public void setAnnualInterestRate(int annualInterestRate) {
+    public void setAnnualInterestRate(double annualInterestRate) {
         this.annualInterestRate = annualInterestRate / 100;
     }
 
@@ -63,8 +62,8 @@ public class Account {
 
     @Override
     public String toString() {
-        String output = String.format("Balance: $%.3f\nMonthly interest: $%.3f\nCreation date: %s", balance,
-                getMonthlyInterest(), getDateCreated());
+        String output = String.format("Balance: $%.3f\nMonthly interest: $%.3f\nCreation date: %s",
+                balance, getMonthlyInterest(), getDateCreated());
         return output;
     }
 }
