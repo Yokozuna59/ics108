@@ -1,6 +1,3 @@
-import java.lang.Override;
-import java.lang.String;
-
 public class MCQuestion extends Question {
     private String[] choices;
 

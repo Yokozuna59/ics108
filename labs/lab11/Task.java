@@ -1,7 +1,3 @@
-import java.lang.Exception;
-import java.lang.String;
-import java.lang.System;
-
 public class Task {
     public static Employee[] createEmployeeArray() {
         return new Employee[] {

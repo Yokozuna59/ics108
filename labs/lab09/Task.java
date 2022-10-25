@@ -1,6 +1,3 @@
-import java.lang.String;
-import java.lang.System;
-
 public class Task {
     public static void main(String[] args) throws Exception {
         Question sampleQuestion = new Question("Is KFUPM the best university ever? ");

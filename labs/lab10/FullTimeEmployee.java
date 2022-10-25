@@ -1,6 +1,3 @@
-import java.lang.Override;
-import java.lang.String;
-
 public class FullTimeEmployee extends Employee {
     private double salary;
 

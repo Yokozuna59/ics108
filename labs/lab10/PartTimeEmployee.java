@@ -1,6 +1,3 @@
-import java.lang.Override;
-import java.lang.String;
-
 public class PartTimeEmployee extends Employee {
     private double hours;
 

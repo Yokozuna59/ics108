@@ -1,6 +1,3 @@
-import java.lang.Override;
-import java.lang.String;
-
 public class Employee {
     private int id;
     private String name;

@@ -1,7 +1,3 @@
-import java.lang.Exception;
-import java.lang.String;
-import java.lang.System;
-
 public class Task {
     public static void main(String[] args) throws Exception {
         Vehicle sampleVehicle = new Vehicle(23213213, 4);

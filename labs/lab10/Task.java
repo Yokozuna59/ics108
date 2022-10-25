@@ -1,6 +1,3 @@
-import java.lang.String;
-import java.lang.System;
-
 public class Task {
     public static PartTimeEmployee[] addPartTimeEmployee(PartTimeEmployee[] employeesArray,
             PartTimeEmployee addWorker) {

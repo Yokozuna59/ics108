@@ -1,5 +1,3 @@
-import java.lang.Math;
-
 public class MyInteger {
     private int value;
 
